@@ -151,4 +151,8 @@ enum EventType {
     EVENT_TYPE_EXTERNAL_WORKFLOW_EXECUTION_SIGNALED = 39;
     // Workflow search attributes should be updated and synchronized with the visibility store
     EVENT_TYPE_UPSERT_WORKFLOW_SEARCH_ATTRIBUTES = 40;
+    // Some property or properties of the workflow as a whole have changed
+    EVENT_TYPE_WORKFLOW_PROPERTIES_MODIFIED = 41;
+    // Some property or properties of an already-scheduled activity have changed
+    EVENT_TYPE_ACTIVITY_PROPERTIES_MODIFIED = 42;
 }
